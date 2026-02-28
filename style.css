@@ -1,0 +1,91 @@
+/* Reset ish */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Debug Remove Later */
+* {
+    outline: 1px solid rgba(255,0,0,0.2);
+}
+
+/* Header */
+.header {
+    padding: 16px 120px;
+    background: #1f2937;
+    color: white;
+}
+
+/* nav */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 0; /* vertical and horizontal spacing */
+}
+
+.hero-left {
+    flex: 1
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 500px;
+  height: 220px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-left h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero-left p {
+  margin: 12px 0 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.hero-left button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #3882f6;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
