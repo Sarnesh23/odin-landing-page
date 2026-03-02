@@ -131,3 +131,32 @@ body {
     margin: 0;
     color: #4b5563;
 }
+
+/* Quote */
+.quote {
+    padding: 80px 120px;
+    text-align: center;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.quote-container {
+    max-width: 800px;
+}
+
+.quote-text {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
+}
+
+.quote-author {
+    margin-top: 12px;
+    font-weight: 600;
+    text-align: right;
+}
