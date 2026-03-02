@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 /* Reset ish */
 * {
     box-sizing: border-box;
@@ -5,7 +7,7 @@
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
 }
 
 /* Debug Remove Later */
@@ -88,4 +90,44 @@ body {
   color: white;
   font-weight: 700;
   cursor: pointer;
+}
+
+/* Info */
+.info {
+    padding: 48px 120px;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.card .box {
+    width: 140px;
+    height: 140px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+}
+
+.card p {
+    margin: 0;
+    color: #4b5563;
 }
