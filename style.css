@@ -10,11 +10,6 @@ body {
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 
-/* Debug Remove Later */
-* {
-    outline: 1px solid rgba(255,0,0,0.2);
-}
-
 /* Header */
 .header {
     padding: 16px 120px;
@@ -202,4 +197,13 @@ body {
     font-weight: 700;
     cursor: pointer;
     white-space: nowrap;
+}
+
+/* Footer */
+.footer {
+    padding: 16px 120px;
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    font-size: 12px;
 }
