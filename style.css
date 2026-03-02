@@ -160,3 +160,46 @@ body {
     font-weight: 600;
     text-align: right;
 }
+
+/* CTA */
+.cta-wrapper {
+    padding: 80px 120px
+}
+
+.cta {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.cta-left {
+    color: #e5e7eb;
+}
+
+.cta-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cta-subtext {
+    margin: 4px 0 0;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.cta-button {
+    background: transparent;
+    color: #e5e7eb;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+}
